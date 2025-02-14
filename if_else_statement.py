@@ -8,5 +8,5 @@ else:
 
 try:
     #code here
-    except ValueError:
-        print("Invalid input. Please enter an integer.")
+except ValueError:
+    print("Invalid input. Please enter an integer.")
