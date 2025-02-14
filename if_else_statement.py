@@ -7,6 +7,6 @@ else:
     print("The number", number, "is Odd.")
 
 try:
-    #code here
+    number = int(user_input)
 except ValueError:
     print("Invalid input. Please enter an integer.")
